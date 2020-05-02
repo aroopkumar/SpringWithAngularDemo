@@ -1,0 +1,14 @@
+
+<div>
+    <button type="submit" (click)="onButtonClick()">Get Persons</button>
+    <ul>
+      <li *ngFor="let p of persons; let i = index">
+        Id: {{p.id}}
+        Name:{{p.name}}
+      </li>
+    </ul>
+</div>
+
+
+
+
